@@ -23,7 +23,7 @@ api = 2
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
 projects[drupal][type] = "core"
-projects[drupal][version] = "7.20"
+projects[drupal][version] = "7.22"
 
 
 ; Modules
@@ -43,7 +43,7 @@ projects[boxes][version] = "1.1"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][type] = "module"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[date][subdir] = "contrib"
 projects[date][type] = "module"
