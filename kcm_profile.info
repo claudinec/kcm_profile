@@ -1,0 +1,16 @@
+name = Kiwanis profile
+description = Kiwanis Club of Melbourne Side installation profile.
+version = 1.0
+core = 7.x
+
+; Modules
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = module_filter
+dependencies[] = token
+
+

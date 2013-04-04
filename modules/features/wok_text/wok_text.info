@@ -1,0 +1,16 @@
+name = Wok Text
+description = Text formats etc
+core = 7.x
+package = Wok
+php = 5.2.4
+version = 7.x-1.0
+project = wok_text
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = markdown
+dependencies[] = wysiwyg
+features[features_api][] = api:1
+features[user_permission][] = administer filters
+features[user_permission][] = use text format 3
+features[wysiwyg][] = 3
+features_exclude[filter][] = 3
