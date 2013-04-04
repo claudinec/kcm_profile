@@ -14,7 +14,8 @@ function kcm_users_user_default_permissions() {
   $permissions['access administration menu'] = array(
     'name' => 'access administration menu',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
+      1 => 'staff',
     ),
     'module' => 'admin_menu',
   );
@@ -23,7 +24,8 @@ function kcm_users_user_default_permissions() {
   $permissions['access administration pages'] = array(
     'name' => 'access administration pages',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
+      1 => 'staff',
     ),
     'module' => 'system',
   );
@@ -32,7 +34,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access backup and migrate'] = array(
     'name' => 'access backup and migrate',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'backup_migrate',
   );
@@ -41,7 +43,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access backup files'] = array(
     'name' => 'access backup files',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'backup_migrate',
   );
@@ -50,8 +52,8 @@ function kcm_users_user_default_permissions() {
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
+      0 => 'anonymous user',
+      1 => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -60,7 +62,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access content overview'] = array(
     'name' => 'access content overview',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'node',
   );
@@ -69,7 +71,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access devel information'] = array(
     'name' => 'access devel information',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'devel',
   );
@@ -78,7 +80,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access site in maintenance mode'] = array(
     'name' => 'access site in maintenance mode',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      0 => 'authenticated user',
     ),
     'module' => 'system',
   );
@@ -87,7 +89,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access site reports'] = array(
     'name' => 'access site reports',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
   );
@@ -96,7 +98,7 @@ function kcm_users_user_default_permissions() {
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'user',
   );
@@ -112,7 +114,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer backup and migrate'] = array(
     'name' => 'administer backup and migrate',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'backup_migrate',
   );
@@ -121,7 +123,8 @@ function kcm_users_user_default_permissions() {
   $permissions['administer blocks'] = array(
     'name' => 'administer blocks',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
+      1 => 'staff',
     ),
     'module' => 'block',
   );
@@ -130,7 +133,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer content types'] = array(
     'name' => 'administer content types',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'node',
   );
@@ -139,7 +142,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer features'] = array(
     'name' => 'administer features',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'features',
   );
@@ -148,7 +151,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer module filter'] = array(
     'name' => 'administer module filter',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'module_filter',
   );
@@ -157,7 +160,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer modules'] = array(
     'name' => 'administer modules',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
   );
@@ -166,7 +169,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'node',
   );
@@ -175,7 +178,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer permissions'] = array(
     'name' => 'administer permissions',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'user',
   );
@@ -184,7 +187,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer site configuration'] = array(
     'name' => 'administer site configuration',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
   );
@@ -193,7 +196,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer software updates'] = array(
     'name' => 'administer software updates',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
   );
@@ -202,7 +205,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer themes'] = array(
     'name' => 'administer themes',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
   );
@@ -211,7 +214,7 @@ function kcm_users_user_default_permissions() {
   $permissions['administer users'] = array(
     'name' => 'administer users',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'user',
   );
@@ -220,9 +223,16 @@ function kcm_users_user_default_permissions() {
   $permissions['block IP addresses'] = array(
     'name' => 'block IP addresses',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
+  );
+
+  // Exported permission: bypass node access.
+  $permissions['bypass node access'] = array(
+    'name' => 'bypass node access',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: cancel account.
@@ -239,20 +249,11 @@ function kcm_users_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: delete any page content.
-  $permissions['delete any page content'] = array(
-    'name' => 'delete any page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: delete backup files.
   $permissions['delete backup files'] = array(
     'name' => 'delete backup files',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'backup_migrate',
   );
@@ -261,7 +262,7 @@ function kcm_users_user_default_permissions() {
   $permissions['delete revisions'] = array(
     'name' => 'delete revisions',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'node',
   );
@@ -277,7 +278,7 @@ function kcm_users_user_default_permissions() {
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'admin_menu',
   );
@@ -286,7 +287,7 @@ function kcm_users_user_default_permissions() {
   $permissions['manage features'] = array(
     'name' => 'manage features',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'features',
   );
@@ -295,7 +296,7 @@ function kcm_users_user_default_permissions() {
   $permissions['perform backup'] = array(
     'name' => 'perform backup',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'backup_migrate',
   );
@@ -304,7 +305,7 @@ function kcm_users_user_default_permissions() {
   $permissions['restore from backup'] = array(
     'name' => 'restore from backup',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'backup_migrate',
   );
@@ -313,7 +314,7 @@ function kcm_users_user_default_permissions() {
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      0 => 'administrator',
     ),
     'module' => 'node',
   );
@@ -336,7 +337,7 @@ function kcm_users_user_default_permissions() {
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      0 => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -345,7 +346,8 @@ function kcm_users_user_default_permissions() {
   $permissions['view revisions'] = array(
     'name' => 'view revisions',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      0 => 'administrator',
+      1 => 'staff',
     ),
     'module' => 'node',
   );
@@ -354,7 +356,7 @@ function kcm_users_user_default_permissions() {
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
     'roles' => array(
-      'administrator' => 'administrator',
+      0 => 'administrator',
     ),
     'module' => 'system',
   );

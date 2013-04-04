@@ -2,6 +2,7 @@ name = KCM Users
 description = User settings
 core = 7.x
 package = Kiwanis
+php = 5.2.4
 version = 7.x-1.0
 project = kcm_users
 dependencies[] = admin_menu
@@ -10,9 +11,7 @@ dependencies[] = block
 dependencies[] = devel
 dependencies[] = features
 dependencies[] = module_filter
-dependencies[] = node
-dependencies[] = system
-dependencies[] = user
+datestamp = 1365038552
 features[features_api][] = api:1
 features[user_permission][] = access administration menu
 features[user_permission][] = access administration pages
@@ -38,9 +37,9 @@ features[user_permission][] = administer software updates
 features[user_permission][] = administer themes
 features[user_permission][] = administer users
 features[user_permission][] = block IP addresses
+features[user_permission][] = bypass node access
 features[user_permission][] = cancel account
 features[user_permission][] = change own username
-features[user_permission][] = delete any page content
 features[user_permission][] = delete backup files
 features[user_permission][] = delete revisions
 features[user_permission][] = display drupal links
@@ -55,10 +54,3 @@ features[user_permission][] = view own unpublished content
 features[user_permission][] = view revisions
 features[user_permission][] = view the administration theme
 features[user_role][] = administrator
-
-
-; Information added by drush on 2013-04-04
-version = "unknown"
-project = "kcm_profile"
-datestamp = "1365038552"
-
