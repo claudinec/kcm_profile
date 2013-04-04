@@ -61,6 +61,10 @@ projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][version] = "1.0"
 
+projects[markdown][subdir] = "contrib"
+projects[markdown][type] = "module"
+projects[markdown][version] = "1.1"
+
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][type] = "module"
 projects[module_filter][version] = "1.7"
