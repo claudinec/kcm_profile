@@ -1,0 +1,10 @@
+name = KCM Dev
+description = Development features
+core = 7.x
+package = Kiwanis
+version = 7.x-1.0
+project = kcm_dev
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = environment_indicator
+features[features_api][] = api:1
