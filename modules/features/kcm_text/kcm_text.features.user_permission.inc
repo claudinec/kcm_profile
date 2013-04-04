@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * wok_text.features.user_permission.inc
+ * kcm_text.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function wok_text_user_default_permissions() {
+function kcm_text_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: administer filters.

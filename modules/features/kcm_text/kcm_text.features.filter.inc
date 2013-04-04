@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * wok_text.features.filter.inc
+ * kcm_text.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function wok_text_filter_default_formats() {
+function kcm_text_filter_default_formats() {
   $formats = array();
 
   // Exported format: HTML.

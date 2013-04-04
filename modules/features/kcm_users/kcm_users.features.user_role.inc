@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * wok_users.features.user_role.inc
+ * kcm_users.features.user_role.inc
  */
 
 /**
  * Implements hook_user_default_roles().
  */
-function wok_users_user_default_roles() {
+function kcm_users_user_default_roles() {
   $roles = array();
 
   // Exported role: administrator.

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * wok_text.features.wysiwyg.inc
+ * kcm_text.features.wysiwyg.inc
  */
 
 /**
  * Implements hook_wysiwyg_default_profiles().
  */
-function wok_text_wysiwyg_default_profiles() {
+function kcm_text_wysiwyg_default_profiles() {
   $profiles = array();
 
   // Exported profile: 3

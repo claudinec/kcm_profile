@@ -1,9 +1,9 @@
-name = Wok Users
+name = KCM Users
 description = User settings
 core = 7.x
-package = Wok
+package = Kiwanis
 version = 7.x-1.0
-project = wok_users
+project = kcm_users
 dependencies[] = admin_menu
 dependencies[] = backup_migrate
 dependencies[] = block
@@ -55,3 +55,10 @@ features[user_permission][] = view own unpublished content
 features[user_permission][] = view revisions
 features[user_permission][] = view the administration theme
 features[user_role][] = administrator
+
+
+; Information added by drush on 2013-04-04
+version = "unknown"
+project = "kcm_profile"
+datestamp = "1365038552"
+

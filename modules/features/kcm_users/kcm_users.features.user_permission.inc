@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * wok_users.features.user_permission.inc
+ * kcm_users.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function wok_users_user_default_permissions() {
+function kcm_users_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: access administration menu.
