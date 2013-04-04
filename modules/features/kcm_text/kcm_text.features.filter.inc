@@ -19,11 +19,6 @@ function kcm_text_filter_default_formats() {
     'weight' => '0',
     'filters' => array(
       'filter_html' => array(
-        'weight' => '-50',
-        'status' => '1',
-        'settings' => array(),
-      ),
-      'filter_html' => array(
         'weight' => '-49',
         'status' => '1',
         'settings' => array(
@@ -46,6 +41,11 @@ function kcm_text_filter_default_formats() {
       ),
       'filter_autop' => array(
         'weight' => '-43',
+        'status' => '1',
+        'settings' => array(),
+      ),
+      'filter_markdown' => array(
+        'weight' => '0',
         'status' => '1',
         'settings' => array(),
       ),

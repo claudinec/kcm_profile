@@ -6,13 +6,11 @@ php = 5.2.4
 version = 7.x-1.0
 project = kcm_text
 dependencies[] = features
-dependencies[] = filter
 dependencies[] = markdown
 dependencies[] = wysiwyg
 features[features_api][] = api:1
+features[filter][] = 3
 features[user_permission][] = administer filters
 features[user_permission][] = use text format 3
 features[wysiwyg][] = 3
 features_exclude[filter][] = 3
-
-

@@ -13,7 +13,9 @@ function kcm_text_user_default_permissions() {
   // Exported permission: administer filters.
   $permissions['administer filters'] = array(
     'name' => 'administer filters',
-    'roles' => array(),
+    'roles' => array(
+      0 => 'administrator',
+    ),
     'module' => 'filter',
   );
 
@@ -21,7 +23,8 @@ function kcm_text_user_default_permissions() {
   $permissions['use text format 3'] = array(
     'name' => 'use text format 3',
     'roles' => array(
-      'authenticated user' => 'authenticated user',
+      0 => 'administrator',
+      1 => 'authenticated user',
     ),
     'module' => 'filter',
   );

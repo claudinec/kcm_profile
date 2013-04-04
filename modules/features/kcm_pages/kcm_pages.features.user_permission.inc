@@ -20,6 +20,16 @@ function kcm_pages_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: delete any page content.
+  $permissions['delete any page content'] = array(
+    'name' => 'delete any page content',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'staff',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: delete own page content.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
