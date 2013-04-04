@@ -57,6 +57,10 @@ projects[diff][subdir] = "contrib"
 projects[diff][type] = "module"
 projects[diff][version] = "3.2"
 
+projects[ds][subdir] = "contrib"
+projects[ds][type] = "module"
+projects[ds][version] = "2.2"
+
 projects[features][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][version] = "1.0"
