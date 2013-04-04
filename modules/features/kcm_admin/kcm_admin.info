@@ -1,0 +1,9 @@
+name = KCM Admin
+description = Administration features
+core = 7.x
+package = Kiwanis
+version = 7.x-1.0
+project = kcm_admin
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
+features[features_api][] = api:1
